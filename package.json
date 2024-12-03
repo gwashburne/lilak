@@ -1,7 +1,7 @@
 {
   "name": "lilak",
   "version": "1.0.0",
-  "description": "License Acknowledgement for your dependencies",
+  "description": "License acknowledgement for your dependencies",
   "main": "index.ts",
   "scripts": {
     "test": "jest"
@@ -21,11 +21,15 @@
   },
   "homepage": "https://github.com/gwashburne/lilak#readme",
   "dependencies": {
+    "commander": "^12.1.0",
     "license-checker-rseidelsohn": "^4.4.2",
     "license-compliance": "^3.0.1"
   },
   "devDependencies": {
+    "@types/jest": "^29.5.14",
     "@types/node": "^22.10.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
     "typescript": "^5.7.2"
   }
 }

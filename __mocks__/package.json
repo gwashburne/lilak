@@ -1,0 +1,13 @@
+{
+  "name": "package-json-mock",
+  "version": "1.0.0",
+  "description": "Mock package.json for testing",
+  "author": "gwashburne",
+  "license": "Beerware",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git"
+  }
+}
