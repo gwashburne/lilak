@@ -1,0 +1,31 @@
+{
+  "name": "lilak",
+  "version": "1.0.0",
+  "description": "License Acknowledgement for your dependencies",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwashburne/lilak.git"
+  },
+  "keywords": [
+    "license",
+    "acknowledgement"
+  ],
+  "author": "gwashburne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gwashburne/lilak/issues"
+  },
+  "homepage": "https://github.com/gwashburne/lilak#readme",
+  "dependencies": {
+    "license-checker-rseidelsohn": "^4.4.2",
+    "license-compliance": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  }
+}
