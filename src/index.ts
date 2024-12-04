@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
+import init from "./cmd/init";
+import main from "./cmd/main";
 import { Command } from "commander";
-import init from "./main/init";
 
 const program = new Command();
 
@@ -14,5 +15,10 @@ program
   .command("init")
   .description("Initialize lilak with default configuration")
   .action(init);
+
+program
+  .command("acknowledge")
+  .description("Generate OSS acknowledgement")
+  .action(main);
 
 program.parse(process.argv);

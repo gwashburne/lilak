@@ -1,5 +1,5 @@
 import fs from "fs";
-import init from "../src/main/init";
+import init from "../src/cmd/init";
 import mockPackage from "../__mocks__/package.json";
 
 describe("tests for init function", () => {

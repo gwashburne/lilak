@@ -1,4 +1,6 @@
 {
+  "packageExclusions": [""],
+  "complianceExclusions": [""],
   "allowedLicenses": [
     "MIT",
     "Apache-2.0",
@@ -20,6 +22,5 @@
     "repository",
     "licenseText",
     "copyright"
-  ],
-  "packageExclusions": [""]
+  ]
 }
